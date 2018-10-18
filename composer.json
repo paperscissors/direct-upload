@@ -1,5 +1,5 @@
 {
-    "name": "eddturtle/direct-upload",
+    "name": "paperscissors/direct-upload",
     "description": "Composer Package to build an AWS Signature ready to Direct Upload to S3",
     "license": "MIT",
     "keywords": [

@@ -113,7 +113,7 @@ class Signature
         $this->setTime();
 
         $this->bucket = $bucket;
-        $this->region = new Region($region);
+        $this->region = $region; // we need this to be literal, otherwise other services like Digitalocean Spaces won't work.
 
         $this->setOptions($options);
     }
